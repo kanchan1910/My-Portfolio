@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content%}
+<div class="text-center">
+	<img src="{% static 'core/img/photo.jpeg'%}" width="250px" height="350px" class="img-thumbnail mt-5">
+</div>
+<div class="text-white mx-5 text-justify">
+	<h1 class=" mt-4 font-weight-bold st-font">Hello,</h1>
+	<div class="px-4" style="line-height:2rem;">
+		<p style="text-indent:100px">
+			I am <b class="text-danger">Kanchan Jeswani</b>. I am a Computer Science undergraduate student at Jaipur Engineering College And Research Centre. I am a competitive programmer.I have thorough understanding of data structures, algorithms, and internals of Operating System, I am a curious learner passionate about problem-solving and optimization.I have proficient understanding of code versioning (using Git), I have quite good experience working with C++, Python, and SQL.
+</b>
+		</p>
+		<p>
+			I am GSSOc'21 participant.I love contributing to open source.I have been part of Codechef Mentorship Program.I am interested in Web development.I have also worked on data analysis and deep learning using PyTorch .
+		</p>
+		<p>
+			I love debugging.I love writing tech blogs on Medium.
+I’m currently exploring Web development and working on my problem solving skills.
+		</p>
+		</div>
+	<div class="text-center">
+	<a href="/contact" class="btn btn-outline-success my-4 mx-3">Hire me</a>
+	<a href="/contact" class="btn btn-outline-danger my-4">Reach out to me</a>
+	</div>
+</div>
+
+{% endblock content%}
