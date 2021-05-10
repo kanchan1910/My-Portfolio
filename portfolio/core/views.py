@@ -27,18 +27,27 @@ def experience(request):
 	context = {'ex':'active'}
 	return render(request, 'core/experience.html', context)
 
-def resume(request):
-	context = {'resume':'active'}
-	return render(request, 'core/resume.html', context)
+
 
 def github(request):
 	context = {'github':'active'}
 	return render(request, 'core/github.html', context)
 
 
-def certi(request):
-	context = {'certi':'active'}
-	return render(request, 'core/accomplishments.html', context)
+def resume(request):
+	context = {'resume':'active'}
+	return render(request, 'core/resume.html', context)
+
+
+
+def linkedin(request):
+	context = {'linkedin':'active'}
+	return render(request, 'core/linkedin.html', context)
+
+
+def medium(request):
+	context = {'medium':'active'}
+	return render(request, 'core/medium.html', context)
 
 
 def contact(request):
