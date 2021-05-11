@@ -123,7 +123,6 @@ PyYAML==5.3.1
 pyzmq==19.0.1
 qtconsole==4.7.4
 QtPy==1.9.0
-rdflib==5.0.0
 rpl==1.5.6
 rsa==4.0
 scikit-learn==0.22.2.post1
