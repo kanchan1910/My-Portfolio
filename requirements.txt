@@ -114,7 +114,6 @@ Pygments==2.6.1
 PyMuPDF==1.16.14
 pyparsing==2.4.7
 pyrsistent==0.16.0
-python-apt==1.4.3
 python-dateutil==2.8.1
 python-debian==0.1.30
 python-memcached==1.53
